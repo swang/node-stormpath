@@ -1,0 +1,32 @@
+{
+  "name": "stormpath",
+  "version": "0.0.1",
+  "description": "Wrapper for Stormpath API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swang/node-stormpath.git"
+  },
+  "keywords": [
+    "api",
+    "api",
+    "wrapper",
+    "stormpath"
+  ],
+  "dependencies": {
+    "request": "*",
+    "underscore": "*"
+
+  }, 
+  "devDependencies": {
+    "nock": "*",
+    "mocha": "*",
+    "should": "*",
+    "jshint": "*"
+  },
+  "author": "Shuan Wang",
+  "license": "BSD"
+}
