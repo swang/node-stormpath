@@ -17,15 +17,13 @@
     "stormpath"
   ],
   "dependencies": {
-    "request": "*",
-    "underscore": "*"
-
+    "request": "2.21.0",
   }, 
   "devDependencies": {
-    "nock": "*",
-    "mocha": "*",
-    "should": "*",
-    "jshint": "*"
+    "nock": "~0.18.2",
+    "mocha": "~1.10.0",
+    "should": "~1.2.2",
+    "jshint": "~2.1.3"
   },
   "author": "Shuan Wang",
   "license": "BSD"
