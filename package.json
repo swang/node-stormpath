@@ -1,5 +1,5 @@
 {
-  "name": "stormpath",
+  "name": "node-stormpath",
   "version": "0.0.1",
   "description": "Wrapper for Stormpath API",
   "main": "index.js",
