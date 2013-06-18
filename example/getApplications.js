@@ -1,6 +1,6 @@
 'use strict';
 
-var c, options, Tenant = require('./lib/stormpath').Tenant
+var c, options, Tenant = require('node-stormpath').Tenant
 
 options = {
   apiId: "<API ID>"

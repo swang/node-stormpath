@@ -8,14 +8,14 @@ node-stormpath aims to provide a complete library for accessing the Stormpath AP
 
 ## Getting started
 
-1. Install Stormpath from npm (`npm install stormpath`).
+1. Install Stormpath from npm (`npm install node-stormpath`).
 2. Get API ID and Secret from your Stormpath install.
 3. Generally you will be interacting with one Tenant in Stormpath, so you want to make a simple call to grab your current Tenant info.
 
 ```javascript
 'use strict';
 
-var c, options, Tenant = require('./lib/stormpath').Tenant
+var c, options, Tenant = require('node-stormpath').Tenant
 
 options = {
   apiId: "<API ID>"
@@ -35,7 +35,7 @@ c.getCurrentTenant(function(err, ten) {
 ```javascript
 'use strict';
 
-var c, options, Tenant = require('./lib/stormpath').Tenant
+var c, options, Tenant = require('node-stormpath').Tenant
 
 options = {
   apiId: "<API ID>"
