@@ -2,9 +2,15 @@ Stormpath API wrapper library for node.js
 =========================================
 node-stormpath aims to provide a complete library for accessing the Stormpath API
 
+** THIS IS STILL A WORK IN PROGRESS. API MAY CHANGE **
+
 ## Requirements
 
 - [node v0.8+](http://nodejs.org/) (may work with v0.6 but no guarantees)
+
+## Install
+
+- npm install node-stormpath
 
 ## Getting started
 
