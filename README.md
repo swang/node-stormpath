@@ -63,9 +63,7 @@ c.getCurrentTenant(function(err, ten) {
     })
   }
 })
-
 ```
-
 
 ## Contributors
 
@@ -74,3 +72,12 @@ c.getCurrentTenant(function(err, ten) {
 ## TODO
 
 - Add better support for ?expand
+
+## CHANGELOG
+
+0.0.2
+- Basic support for expand
+- Bugfixes
+
+0.0.1
+- Initial verison
