@@ -72,7 +72,7 @@ c.getCurrentTenant(function(err, ten) {
 ## TODO
 
 - Add better support for ?expand
-
+- Handle iterating over offset/limit until it exhausts the resource record
 ## CHANGELOG
 
 0.0.2
