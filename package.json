@@ -1,6 +1,6 @@
 {
   "name": "node-stormpath",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for Stormpath API",
   "main": "index.js",
   "scripts": {
