@@ -4,7 +4,8 @@
   "description": "Wrapper for Stormpath API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter list test/*.js"
+    "test": "./node_modules/.bin/mocha --reporter list test/*.js",
+    "lint": "./node_modules/.bin/jshint --config jshint.json lib/*.js"
   },
   "repository": {
     "type": "git",
