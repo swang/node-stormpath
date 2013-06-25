@@ -1,11 +1,12 @@
 'use strict';
 var api = require('../lib/const.js');
-var Client = require('../lib/client.js');
-var Tenant = require('../lib/tenant.js');
-var Application = require('../lib/application.js');
-var nock = require('nock')
+  , Client = require('../lib/client.js');
+  , Tenant = require('../lib/tenant.js');
+  , Application = require('../lib/application.js');
+  , nock = require('nock')
   , should = require('should')
-var options = {apiId: "X", apiSecret: "Y"}
+  , options = {apiId: "X", apiSecret: "Y"}
+
 describe("Applications", function() {
   before(function () {
     nock(api.API_DOMAIN)
@@ -111,12 +112,14 @@ describe("Applications", function() {
     })
     it("Should return the one group in Application", function() {
       t.getGroups(function(err, groups) {
+        var group = groups[0]
         groups.length.should.equal(1)
-        groups[0].id.should.equal("TEST_GROUP_UID")
-        groups[0].getData('directory').href.should.equal(api.BASE_URL + "directories/TEST_APPLICATION_DIRECTORY_UID")
-        groups[0].getData('tenant').href.should.equal(api.BASE_URL + "tenants/TEST_TENANT_UID")
-        groups[0].getData('accounts').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accounts")
-        groups[0].getData('accountMemberships').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accountMemberships")
+
+        groups.id.should.equal("TEST_GROUP_UID")
+        groups.getData('directory').href.should.equal(api.BASE_URL + "directories/TEST_APPLICATION_DIRECTORY_UID")
+        groups.getData('tenant').href.should.equal(api.BASE_URL + "tenants/TEST_TENANT_UID")
+        groups.getData('accounts').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accounts")
+        groups.getData('accountMemberships').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accountMemberships")
       })
     })
   })
