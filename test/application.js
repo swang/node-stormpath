@@ -115,11 +115,11 @@ describe("Applications", function() {
         var group = groups[0]
         groups.length.should.equal(1)
 
-        groups.id.should.equal("TEST_GROUP_UID")
-        groups.getData('directory').href.should.equal(api.BASE_URL + "directories/TEST_APPLICATION_DIRECTORY_UID")
-        groups.getData('tenant').href.should.equal(api.BASE_URL + "tenants/TEST_TENANT_UID")
-        groups.getData('accounts').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accounts")
-        groups.getData('accountMemberships').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accountMemberships")
+        group.id.should.equal("TEST_GROUP_UID")
+        group.getData('directory').href.should.equal(api.BASE_URL + "directories/TEST_APPLICATION_DIRECTORY_UID")
+        group.getData('tenant').href.should.equal(api.BASE_URL + "tenants/TEST_TENANT_UID")
+        group.getData('accounts').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accounts")
+        group.getData('accountMemberships').href.should.equal(api.BASE_URL + "groups/TEST_GROUP_UID/accountMemberships")
       })
     })
   })
