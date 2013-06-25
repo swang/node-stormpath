@@ -1,8 +1,8 @@
 'use strict';
-var api = require('../lib/const.js');
-  , Client = require('../lib/client.js');
-  , Tenant = require('../lib/tenant.js');
-  , Application = require('../lib/application.js');
+var api = require('../lib/const.js')
+  , Client = require('../lib/client.js')
+  , Tenant = require('../lib/tenant.js')
+  , Application = require('../lib/application.js')
   , nock = require('nock')
   , should = require('should')
   , options = {apiId: "X", apiSecret: "Y"}
