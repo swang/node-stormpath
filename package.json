@@ -1,6 +1,6 @@
 {
   "name": "node-stormpath",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrapper for Stormpath API",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "stormpath"
   ],
   "dependencies": {
-    "request": "2.21.0"
+    "request": "2.21.x"
   }, 
   "devDependencies": {
     "nock": "~0.18.2",

@@ -73,7 +73,15 @@ c.getCurrentTenant(function(err, ten) {
 
 - Add better support for ?expand
 - Handle iterating over offset/limit until it exhausts the resource record
+
 ## CHANGELOG
+
+0.0.4
+- Added verifyAccount in Application to handle having to make 2 calls to retrieve a verified user's account information.
+
+0.0.3
+- Fix request not causing correct data to be passed for POST calls
+- Turned redirects back on (/current/tenants was not properly sending the correct redirect location)
 
 0.0.2
 - Basic support for expand
