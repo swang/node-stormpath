@@ -2,6 +2,8 @@ Stormpath API wrapper library for node.js
 =========================================
 node-stormpath aims to provide a complete library for accessing the Stormpath API
 
+[![build status](https://secure.travis-ci.org/swang/node-stormpath.png)](http://travis-ci.org/swang/node-stormpath)
+
 ** THIS IS STILL A WORK IN PROGRESS. API MAY CHANGE **
 
 ## Requirements
