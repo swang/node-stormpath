@@ -77,6 +77,8 @@ c.getCurrentTenant(function(err, ten) {
 - Handle iterating over offset/limit until it exhausts the resource record
 
 ## CHANGELOG
+0.0.5
+- Added GroupMembership functionality into Application
 
 0.0.4
 - Added verifyAccount in Application to handle having to make 2 calls to retrieve a verified user's account information.
