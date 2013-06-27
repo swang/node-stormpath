@@ -1,5 +1,6 @@
 {
   "boss":      true,
+  "camelcase": true,
   "node":      true,
   "strict":    true,
   "white":     false,
