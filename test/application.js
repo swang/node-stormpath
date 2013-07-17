@@ -24,7 +24,7 @@ describe("Applications", function() {
           "href": "https://api.stormpath.com/v1/tenants/TEST_TENAND_UID"
         },
         "passwordResetTokens" : {
-          "href" : "http://localhost:8080/v1/applications/TEST_APPLICATION_UID/passwordResetTokens"
+          "href" : "http://api.stormpath.co/v1/applications/TEST_APPLICATION_UID/passwordResetTokens"
         }
       })
       .get('/v1/applications/TEST_APPLICATION_UID/accounts')
