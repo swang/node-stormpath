@@ -73,10 +73,19 @@ c.getCurrentTenant(function(err, ten) {
 
 ## TODO
 
-- Add better support for ?expand
 - Handle iterating over offset/limit until it exhausts the resource record
+- Rethink way to grab new resource URIs
+- More tests
 
 ## CHANGELOG
+0.0.7
+- Fixed Abstract.create not passing in an id
+- Fixed passwordResetTokens to allow a token to be passed through!
+
+0.0.6
+- Have createGroupMembership return a clearer error message when the account or group is invalid or does not exist 
+- Fixed some tests
+
 0.0.5
 - Added GroupMembership functionality into Application
 
