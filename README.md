@@ -78,6 +78,10 @@ c.getCurrentTenant(function(err, ten) {
 - More tests
 
 ## CHANGELOG
+0.0.8
+- Added support for emailVerificationToken
+- Body parameter should only be value of json iff method is POST
+
 0.0.7
 - Fixed Abstract.create not passing in an id
 - Fixed passwordResetTokens to allow a token to be passed through!
