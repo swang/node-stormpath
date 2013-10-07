@@ -78,6 +78,9 @@ c.getCurrentTenant(function(err, ten) {
 - More tests
 
 ## CHANGELOG
+0.0.9
+- Added support for registrationWorkflowEnabled
+
 0.0.8
 - Added support for emailVerificationToken
 - Body parameter should only be value of json iff method is POST
