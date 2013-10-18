@@ -78,6 +78,10 @@ c.getCurrentTenant(function(err, ten) {
 - More tests
 
 ## CHANGELOG
+0.0.10
+- Fix bug when hitting DELETE resource routes
+- License changed to MIT
+
 0.0.9
 - Added support for registrationWorkflowEnabled
 
