@@ -26,5 +26,5 @@
     "jshint": "~2.1.3"
   },
   "author": "Shuan Wang",
-  "license": "BSD"
+  "license": "MIT"
 }
